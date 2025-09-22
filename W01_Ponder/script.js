@@ -1,11 +1,14 @@
 
 const PI = 3.14;
 let radius = 3; // let is the correct keyword to make a variable 
-                  
+console.log(PI);
+console.log(radius);            
 
 const one = 1;
 const two = '2';
-                    
+console.log(one);
+console.log(two);
+                   
 
 let course = "CSE131"; //global scope
 if (true) {
