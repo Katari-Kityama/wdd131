@@ -2,12 +2,21 @@ body {
     background-color: #ffffff;
     font-size: 20px;
 
-    border: 1px solid rgb(89, 89, 89);
     font-family: 'Times New Roman', Times, serif;
     max-width: 900px;
     margin: 20px auto 20px auto;
+}
 
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+    border: 1px solid rgb(216, 216, 216);
+}
 
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid rgb(89, 89, 89);
 }
 
 #content {
