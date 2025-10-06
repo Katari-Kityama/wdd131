@@ -22,14 +22,23 @@ section {
   margin: 1em;
   border: 1px solid #ccc;
 }
+nav {
+    display: none;
+}
 nav a {
     padding: 20px;
     color: black;
-    display: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    border-top: 1px solid rgb(142, 142, 142);
+}
+.unhide {
+    display: inline;
 }
 nav a:hover {
-    text-decoration: none;
-    color: #616061;
+    text-decoration: bold;
+    color: #ffffff;
 }
 .menu-btn {
     cursor: pointer;
@@ -41,6 +50,15 @@ nav a:hover {
     height: 4px;
     background-color: black;
     margin: 5px 0;
+    transition: all 0.2s ease; 
+}
+.change .bar1 {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -9px) rotate(45deg);
 }
 footer {
     text-align: center;
@@ -57,14 +75,21 @@ nav a {
     padding: 20px;
     color: black;
     display: inline;
+    text-align: right;
+    border-top: none;
 }
 nav {
     text-align: right;
+    display: block;
 }
 .menu-btn {
     display: none;
 }
 }
+
+
+          
+
      
 @media screen and (min-width: 1100px) {
 main {
