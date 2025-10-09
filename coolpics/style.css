@@ -21,10 +21,14 @@ h1 {
 h3 {
     text-align: center;
 }
-nav a {
-    padding: 20px;
-    color: white;
+nav {
     display: none;
+}
+nav a {
+    padding: 5px;
+    color: white;
+    display: block;
+    text-align: center;
 }
 nav a:hover {
     text-decoration: none;
@@ -56,30 +60,45 @@ img {
     padding: 10px;
     background-color: white;
 }
-
-
+.unhide {
+    display: inline;
+}
 
 /* modal */
 
 dialog img {
     width: auto;
-    height: 96%;
+    height: auto;
+    max-width: 96%;
+    max-height: 96%;
     display: block;
     margin: auto;
+    object-fit: contain;
 }
 dialog {
     width: auto;
     max-width: 100vw;
-    max-height: 100vw;
+    max-height: 100vh;
     height: auto;
     background-color: rgba(0,0,0,.75);
 }
 .close-viewer {
     position: absolute;
-    top: 10vh;
-    right: 2vh;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 3px 6px;
     font-size: 1.5em;
+    background-color: rgba(0,0,0,.75);
+    color: white;
+}
+.dialog-container {
+    box-sizing: border-box; /* includes padding in width/height */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
 }
 
 @media screen and (min-width: 1100px) {
