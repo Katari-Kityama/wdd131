@@ -65,4 +65,5 @@ const articles = [
         // adds the generated HTML to the page.
         document.getElementById("blog-post").innerHTML += articleSummary;
     });
-          
+
+// Github isn't hosting this script for some reason?
