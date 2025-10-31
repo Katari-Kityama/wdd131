@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Form</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+  <body>
+    <section class="errors"></section>
+    <main>  
+      <form id="checkoutForm" action="completed.html" method="get">
+        <section class="creditCard" id="creditCard1">
+          <div class="creditCardInfo" id="creditCardInfo1">
+            <div id="blackBar"></div>
+            <div id="CVC">
+              <label for="CVC/CVVNumber">CVC/CVV</label>
+              <input type='text' id='CVCNumber' name="CVC/CVV" placeholder="xxx" aria-labelledby="CVC/CVV Number">
+            </div>
+          </div>
+        </section>
+        <section class="creditCard" id="creditCard2">
+          <fieldset class="creditCardInfo" id="creditCardInfo2">
+            <div id="totalCost" aria-label="Total Cost">Total: $199</div>
+            <div id="emoji" aria-label="Credit Card Emoji">💳</div>
+            <div id="cardNumber">
+              <label for="creditNumber">CARD NUMBER</label>
+              <input type='text' id='creditCardNumber' name="cardNumber" placeholder="1234 5678 1234 5678" aria-labelledby="Card Number">
+            </div>
+            <div id="cardHolder">
+              <label for="creditHolder">CARD HOLDER</label>
+              <input type='text' id='holder' name="cardHolder" placeholder="John Doe" aria-labelledby="Card Holder">
+            </div>
+            <div id="cardExpiration">
+              <label for="expirationDate">EXPIRATION</label>
+              <input type='text' id='month' name="expMonth" placeholder="MM" aria-labelledby="expirationDate">
+              <input type='text' id='year' name="expYear" placeholder="YY" aria-labelledby="expirationDate">
+            </div>
+          </fieldset>
+        </section>
+        <button type="submit" id="payButton">Submit</button>
+      </form>
+    </main>
+  <script src="script.js"></script>
+  </body>
+</html>
+          
