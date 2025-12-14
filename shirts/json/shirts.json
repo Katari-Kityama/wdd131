@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "kyshirt01",
+      "name": "Silly Blep",
+      "price": 12.99,
+      "imageUrl": "images/kyshirt01.png",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["black", "white"],
+      "tags": ["kyvera", "paint", "clean", "art", "blep", "silly", "minty"],
+      "inStock": false,
+      "productUrl": "shirts/sillyblep",
+      "description": "A fan-favorite gray-furred kyvera making her favorite bleppy expression"
+    },
+    {
+      "id": "kyshirt02",
+      "name": "Sageford Cookie",
+      "price": 11.99,
+      "imageUrl": "images/kyshirt02.png",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["black"],
+      "tags": ["kyvera", "paint", "clean", "art", "cookie", "silly", "sageford"],
+      "inStock": true,
+      "productUrl": "shirts/sagefordcookie",
+      "description": "Minty's baby safeford holding a cookie in his mouth"
+    },
+    {
+      "id": "kyshirt03",
+      "name": "Kat Stare",
+      "price": 12.99,
+      "imageUrl": "images/kyshirt03.png",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["black"],
+      "tags": ["kyvera", "paint", "clean", "art", "stare", "menacing", "kat"],
+      "inStock": true,
+      "productUrl": "shirts/katstare",
+      "description": "Kat making an ambigious thousand-yard stare"
+    },
+    {
+      "id": "kyshirt04",
+      "name": "Kat Smile",
+      "price": 12.99,
+      "imageUrl": "images/kyshirt04.png",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["black"],
+      "tags": ["kyvera", "paint", "clean", "art", "smile", "happy", "kat"],
+      "inStock": true,
+      "productUrl": "shirts/katsmile",
+      "description": "Kat smiling shyly away, perhaps from a compliment from Minty"
+    }
+  ]
+}

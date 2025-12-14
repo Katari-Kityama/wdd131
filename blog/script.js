@@ -41,12 +41,12 @@ const articles = [
         star_count: "5 out of 5 stars"
 	}
 ];
-                
+
     articles.forEach(article => {
         // Code for going through each movie and creating content for that movie
 
         const articleSummary = `
- 
+
         <section class="book-info">
             <li><em>${article.date}</em></li>
             <li>1${article.ages}</li>
