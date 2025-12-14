@@ -17,7 +17,7 @@ fetch("json/shirts.json") // https://stackoverflow.com/questions/7346563/loading
           <img src="${product.imageUrl}">
           <div class="item-text-box">
             <p>${product.description}</p>
-            <div class="item-info">
+            <div class="left-right">
               <p>$${product.price}</p>
               <p>${isInStock}</p>
             </div>
@@ -28,4 +28,4 @@ fetch("json/shirts.json") // https://stackoverflow.com/questions/7346563/loading
       document.getElementById("cards").innerHTML += itemCards;
     });
   })
-  .catch(err => console.error(err));
+

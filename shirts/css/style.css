@@ -69,6 +69,26 @@ body {
 }
 /* End AI generated code */
 
+nav .type2-container {
+    background: url("../images/bg_x.png") repeat;
+    padding: 4%;
+}
+
+nav .left-right {
+    margin-top: 0px;
+}
+
+nav a {
+    margin: 0px;
+}
+
+a {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 1em;
+    color: rgb(32, 192, 175);
+    margin: 5%;
+}
+
 body {
     background-color: rgb(44, 44, 44);
     font-family: "Amatic SC", sans-serif;
@@ -170,14 +190,14 @@ h6 {
     line-height: 1.2;
 }
 
-.item-info {
+.left-right {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     margin-top: 5%;
 }
 
-.item-info p {
+.left-right p {
     font-size: 1.5em;
     color: rgb(140, 155, 155);
 }
@@ -190,6 +210,57 @@ footer .type2-container {
     background: url("../images/bg_x.png") repeat;
 }
 
-footer .item-info {
+footer .left-right {
     margin-top: 0px;
 }
+
+.search-bar {
+    border: 2px  rgb(79, 67, 67) solid;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    background-color: rgb(200 185, 185);
+}
+.search-bar input {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    width: 100%;
+}
+.v-hr {
+    border: 1px rgb(79, 67, 67) solid;
+    width: 1px;
+    height: 90%;
+    margin: auto;
+}
+.search-bar button {
+    border: none;
+    background: none;
+    padding: 5px;
+}
+.search-bar img {
+    height: 100%;
+    width: 100%;
+}
+
+.search-bar input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.search-bar:focus-within {
+    border-color: rgb(60, 50, 50);
+    background-color: rgb(210 195 195);
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        font-size: 1.2em;
+        max-width: 1400px;
+        margin: auto;
+    }
+    .card {
+        min-width: 0%;
+    }
+}
+
